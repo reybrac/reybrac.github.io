@@ -6,12 +6,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Reybrac: First site</title>
-    <!--
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    -->
        
     <!--Control the size of the carousel-->
    
@@ -35,47 +30,44 @@
               <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="https://reybrac.github.io/">About</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!--Carousel with images-->
-    <container>
-          <div id="myCarousel" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-          
+    
+    <container class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
           </ol>
-        
-          
           <div class="carousel-inner">
-              <div class="carouse-item active">
-                <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="Los Angeles" witdth="100%" />
-              </div>
-        
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBSgjaC_HU_LwpeYUU9eeTYp3miWDh05vBw&usqp=CAU" alt="polar bear" width="100%"/>
-              </div>
-            
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWGUk64pOtXeGV4Pz3yiwYGGb63HTt-rEAg&usqp=CAU" alt="New york" width="100%"/>
-              </div>
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWGUk64pOtXeGV4Pz3yiwYGGb63HTt-rEAg&usqp=CAU" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://images.stockfreeimages.com/10152/sfi226w/101529255.jpg" alt="Third slide">
+            </div>
           </div>
-          
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+      </div>
     </container>
+          
+    
   <!--end carousel-->
   
     <container class="container-md">
@@ -117,35 +109,9 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non, est sapiente nisi vero cum quam unde porro nesciunt et id fuga reiciendis. Numquam provident eum vero fugiat natus ratione.</p>
     </container>
     
-    <!--
-    <container class="container">
-      <h1 class="display-1">Services!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis non, est sapiente nisi vero cum quam unde porro nesciunt et id fuga reiciendis. Numquam provident eum vero fugiat natus ratione.</p>
-      <container class="container">
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWGUk64pOtXeGV4Pz3yiwYGGb63HTt-rEAg&usqp=CAU" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="https://images.stockfreeimages.com/10152/sfi226w/101529255.jpg" alt="Third slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-        </div>
-      </container>
-    </container>
-  -->
+    
+   
+  
     
     
     <img src="https://i.pinimg.com/564x/64/bc/33/64bc33b2a886913717e912be5a671e61.jpg" alt="Happy Monkey" class="img-thumbnail">
