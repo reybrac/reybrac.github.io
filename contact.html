@@ -1,51 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-<div class="container">
-  <h2>Carousel Example</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWGUk64pOtXeGV4Pz3yiwYGGb63HTt-rEAg&usqp=CAU" alt="Los Angeles" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBSgjaC_HU_LwpeYUU9eeTYp3miWDh05vBw&usqp=CAU" alt="Chicago" style="width:100%;">
-      </div>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <title>Reybrac: First site</title>
+        <style>
+            footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
     
-      <div class="item">
-        <img src="https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg" alt="New york" style="width:100%;">
-      </div>
-    </div>
+    </head>
+    <body style="background-color: lightgrey">
+        <section class="container">
+        
+             <!--Navigation bar section -->
+        <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand"><h1>Reynaldo Bracamonte</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Aligned the NAV buttons to the right-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file:///C:/Users/rbracamonte/Desktop/rb_files/rab/boot_camp_ucdavis/reybrac.github.io/contact.html"><h2>Contact</h2></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/rbracamonte/Desktop/rb_files/rab/boot_camp_ucdavis/reybrac.github.io/portfolio.html"><h2>Portfolio</h2></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/rbracamonte/Desktop/rb_files/rab/boot_camp_ucdavis/reybrac.github.io/index.html#"><h2>About</h2></a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
+        <!--Start of contact form-->
+        <container class="container-fluid">
+          
+            <div class="row">
+                <div class="col-md-3">
+                  <!--Spacer-->                                     
+                </div>
 
-</body>
+                <div class="col-md-6 bg-light">
+                    <h1>Contact</h1>  
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="exampleFormControlInput2">Email</label>
+                        <input type"email" Class="form-control" id="exampleFormControlInput2" placeholder="Email">
+                        </input>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                      </div>
+                      <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                      </div>
+                    </form>
+                </div>
+      
+                <div class="col-md-3"> 
+                    <!--Spacer--> 
+                </div>
+      
+            </div>
+          
+          
+
+        </container>
+        
+
+
+        <footer class="col-md-12 bg-primary"style="color:white">
+          <h6 class="text-center">Thank you for visiting</h6>
+      </footer>
+
+  
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    </body>
 </html>

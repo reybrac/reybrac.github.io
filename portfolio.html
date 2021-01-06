@@ -6,16 +6,26 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <title>Reybrac: First site</title>
-        
+        <style>
+            article{
+                background-color: linen;
+            }
+            footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
     
     </head>
-    <body>
+    <body style="background-color: lightskyblue">
         <section class="container">
         
              <!--Navigation bar section -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
             <div class="container-fluid">
-            <a class="navbar-brand"><h1>Reynaldo Bracamonte</h1></a>
+            <a class="navbar-brand"><h3>Reynaldo Bracamonte</h3></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +33,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="file:///C:/Users/rbracamonte/Desktop/rb_files/rab/boot_camp_ucdavis/reybrac.github.io/contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="file:///C:/Users/rbracamonte/Desktop/rb_files/rab/boot_camp_ucdavis/reybrac.github.io/portfolio.html">Portfolio</a>
@@ -40,7 +50,7 @@
                 <div class="row">
                     <!--This is the 1st column-->
                     <div class="col-md-6">
-                        <p>Welcome back to Leila.com. I hope you enjoy the latest title: FEstvival of yay on December 25.</p>
+                        <p>Portfolio of work performed</p>
                     </div>
                 
                     <!--This is the second column with a table-->
@@ -79,8 +89,25 @@
                 </div>
             </article>
             <!--Article regarding the cute monkey-->
-            <article class="container">
-                <div class="row">
+            <article class="container-fluid">
+                <div class="row bg-dark " style="color: white; padding: 10px;">
+                    <div class="col-md-6"> 
+                        <h2>Likes and dislikes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non, porro iure ex laborum esse quisquam ullam quas explicabo error cum sapiente veritatis ut nostrum obcaecati, modi ipsam aspernatur expedita!
+                    
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non, porro iure ex laborum esse quisquam ullam quas explicabo error cum sapiente veritatis ut nostrum obcaecati, modi ipsam aspernatur expedita!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://i.pinimg.com/564x/64/bc/33/64bc33b2a886913717e912be5a671e61.jpg" alt="Happy Monkey" class="img-thumbnail">
+                    </div>
+    
+                    <div class="col-md-3">
+                        <h2>Happy Monkey</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo vitae numquam, animi explicabo aliquam asperiores molestiae sed distinctio cumque, praesentium doloremque, suscipit quia ipsa. Repudiandae nemo nihil soluta porro?</p>
+                    </div>
+            
+                </div>
+                <div class="row bg-light " style="padding: 10px;">
                     <div class="col-md-3">
                         <img src="https://i.pinimg.com/564x/64/bc/33/64bc33b2a886913717e912be5a671e61.jpg" alt="Happy Monkey" class="img-thumbnail">
                     </div>
@@ -98,17 +125,28 @@
                     </div>
         
                 </div>
-            </article>
-            <article class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse dolorum quasi hic odit, excepturi magnam ex nam sit cum possimus asperiores ducimus blanditiis qui, harum, placeat iure tempora aspernatur praesentium.</p>
+                <div class="row bg-primary"style="color: white; padding: 10px;"">
+                    
+    
+                    <div class="col-md-3">
+                        <h2>Happy Monkey</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium illo vitae numquam, animi explicabo aliquam asperiores molestiae sed distinctio cumque, praesentium doloremque, suscipit quia ipsa. Repudiandae nemo nihil soluta porro?</p>
+                    </div>
+    
+                    <div class="col-md-6"> 
+                        <h2>Likes and dislikes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non, porro iure ex laborum esse quisquam ullam quas explicabo error cum sapiente veritatis ut nostrum obcaecati, modi ipsam aspernatur expedita!
+                    
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non, porro iure ex laborum esse quisquam ullam quas explicabo error cum sapiente veritatis ut nostrum obcaecati, modi ipsam aspernatur expedita!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="https://i.pinimg.com/564x/64/bc/33/64bc33b2a886913717e912be5a671e61.jpg" alt="Happy Monkey" class="img-thumbnail">
                     </div>
         
                 </div>
             </article>
         </section>
-        <footer class="col-md-12">
+        <footer class="col-md-12 bg-dark"style="color:white">
             <h6 class="text-center">Thank you for visiting</h6>
         </footer>
 
