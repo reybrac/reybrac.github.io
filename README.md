@@ -12,16 +12,13 @@ Creating the initial file
 
 Creating a responsive portfolio website. 
 
-This will help improve SEO and formatting of the html and CSS code of the website. Utilizing HTML5 semantic standards to make it easier to read the code and be able to troubleshoot any problems. 
+This will help showcase the items that we have worked on . 
 
-There were some hurdles encountered at first due to unfamiliarity with the HTML5 semantic code guide. I had to conduct research on the semantic code and update the file accordingly. 
+There were some hurdles encountered at first due to unfamiliarity with bootstrap and having to research several areas. 
 
-Updating the CSS code was also a challenge as I tried to consolidate similar classes together, but found that some of the classes could not be combined. 
-
-The most obvious improvement was the addition of comments throughout the code. This assisted in the testing of the CSS updates and ensuring that the correct class was updated. The added comments will be beneficial for any future changes to the website. 
 
 ### Screenshot
-![alt text](https://github.com/reybrac/Website_Optimization/blob/main/assets/images/Website-image.JPG?raw=true)
+![alt text](https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Reybrac.github.io.JPG?raw=true)
 
 #### Installation-Deployment
 Copy the link and paste it to your browser to install and deploy it. 
