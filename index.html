@@ -3,32 +3,17 @@
 <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/style.css" />
     <link rel="icon" type="image/jpg" href="./Assets/Images/RB image.jpg"/>
-    <title>About</title>
-    <!--Sticky footer control-->
-    <style>
-      footer{
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                height: auto;
-                background-color: rgb(8, 8, 8);
-                color: white;
-                text-align: center;
-                padding: 5px;
-            }
-      
-    </style>
-    
+    <title>Reybrac</title> 
 </head>
-<body class="container" style="background-color:rgb(16, 165, 165); color: white;" >
+<body class="container" style="color: white;" >
     
     <!--Navigation bar section -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://reybrac.github.io/"><h3>Reynaldo Bracamonte</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,11 +45,12 @@
     <container class="container-md">
       <div class="row">
         <h1 class="display-1">About me!</h1>
+        <h3 id="date"></h3>
       </div>
       <div class="row"><h5>
             <article class="container-md" style="padding:10px;">
               <div class="clearfix" style="shape-image-threshold: inherit;">
-                <p>My name is Reynaldo Bracamonte. This is my first website.</p>
+                <p>Thanks for visiting my site. My name is Reynaldo Bracamonte.</p>
                 <p>I have debated about going back to school for several years. Thinking about where I want my career to go. I have been in the same career for many years, but I found that I enjoy working with IT to update the various software products that we use (i.e. CRM, ERP, Website, etc.). I contemplated pursuing a degree in Computer Science, but wasn't sure if it would be a good fit.</p>               
                 
                 <img src="https://media-exp1.licdn.com/dms/image/C5603AQGIm_v9JfEInA/profile-displayphoto-shrink_400_400/0/1555000498617?e=1615420800&v=beta&t=hfhjJwLv2IcMvHla2on0rE_o-r7sv9Ga3BrnKscXioc" class="col-md-3 float-md-end mb-5 ms-md-4" alt="Reynaldo Bracamonte">
@@ -87,7 +73,7 @@
         <div class="row">
             <div class="col-md-3">
       
-              <img src="./Assets/Images/Family-multi-pic.jpg" alt="Happy Monkey" class="img-thumbnail"style="padding:20px; ">
+              <img src="./Assets/Images/Family-multi-pic.jpg" alt="Happy life" class="img-thumbnail"style="padding:20px; ">
                 
             </div>
             <div class="col-md-3">
@@ -112,17 +98,20 @@
       </article>
       
     <!--End of likes dislikes section-->
+
+  
       
   <!--Carousel with images-->
     
-  <container class="container-md">
+  <container class="container-md" id="carousel">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleControls" data-slide-to="1"></li>
                 <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                
             </ol>
-        <div class="carousel-inner" style="width: 100%; height: 100%;">
+        <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="./Assets/Images/the-golden-gate-bridge-sunset.jpg" alt="Golden Gate Bridge" >
             </div>
@@ -132,6 +121,7 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="./Assets/Images/BSBooks.jpg" alt="Books">
             </div>
+      
         
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -141,11 +131,16 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+            
           </div>
       </div>
   </container>   
 <!--end carousel-->
 
+      <!-- Trigger/Open The Modal -->
+      <div class="modal-dialog modal-fullscreen-sm-down">
+        HEllO!!!
+      </div>
   <!--More about me -->
       <div class="row float-right" >
         <div class="col-md-4">
@@ -168,22 +163,29 @@
           <!--Spacer -->
         </div>
         <div class="container col-md-6 ">
-            <div class="card" style="width: 15rem; background-color:rgb(16, 165, 165); ">
-                <img class="card-img-top" src="./Assets/Images/family.jpg" alt="Family" style="background-color: white; padding:5px; width:240px;height:300px;">
+            <div class="card" style="width: 15rem;  ">
+                <img class="card-img-top" src="./Assets/Images/family.jpg" alt="Family">
                 <div class="card-body">
                   <p class="card-text" style="text-align: center;">Loving Family.</p>
                 </div>
           </div>
         </div>
+         
       </div>
-    </container>
+     
+      
+      </container>
     
     
       <footer>
         <h6> Thank you for visiting! </h6>
       </footer>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <!-- jQuery UI <script> tag -->
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+      <script src="./Assets/script.js"></script>
 </body>
 </html>
