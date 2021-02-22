@@ -23,9 +23,9 @@ There were some hurdles encountered at first due to unfamiliarity with bootstrap
 #### Installation-Deployment
 Copy the link and paste it to your browser to install and deploy it. 
 
-https://reybrac.github.io/
-https://reybrac.github.io/portfolio.html
-https://reybrac.github.io/contact.html
+1. https://reybrac.github.io/
+2. https://reybrac.github.io/portfolio.html
+3. https://reybrac.github.io/contact.html
 
 ##### Future_scope
 Future scope is to continue to grow the responsive portfolio to include additional work performed during the Bootcamp.
