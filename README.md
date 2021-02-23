@@ -18,7 +18,8 @@ There were some hurdles encountered at first due to unfamiliarity with bootstrap
 
 
 ### Screenshot
-![alt text](https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Reybrac.github.io.JPG?raw=true)
+![alt About me](https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Reybrac.github.io.JPG?raw=true)
+![alt Portfolio](https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Portfolio.JPG?raw=true)
 
 #### Installation-Deployment
 Copy the link and paste it to your browser to install and deploy it. 
