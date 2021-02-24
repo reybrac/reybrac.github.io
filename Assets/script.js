@@ -1,26 +1,21 @@
-var currentDay = new Date();
+// var currentDay = new Date();
 
-$("#date").append("Today's is " + currentDay.toLocaleDateString());
+// $("#date").append("Today's is " + currentDay.toLocaleDateString());
 
 //Get the button:
-mybutton = document.getElementById("myBtnTop");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+$("#Phone").click(function(){
+  if(true){
+    $("#number").append(" (925) 699-3988");
+  }
+  
+});
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+function myFunction() {
+  var x = document.getElementById("number");
+  if (x.innerHTML === " Contact number") {
+    x.innerHTML = " Contact number: (925) 699-3988";
   } else {
-    mybutton.style.display = "none";
+    x.innerHTML = " Contact number";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-document.getElementById("myBtnTop").addEventListener("click", topFunction);
-
