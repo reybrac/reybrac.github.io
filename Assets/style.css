@@ -1,37 +1,3 @@
-.carousel img{
-    height: 50%;
-    width: 50%;
-    align-self: center;
-}
-#carousel{
-    align-self: center;
-}
-
-body{
-    background-color: rgb(16, 165, 165);
-}
-
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    background-color: rgb(8, 8, 8);
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-
-
-img{
-    padding: 20px;
-    height: auto;
-    width: 50%;
-    align-self: center;
-}
-
 #myBtnTop {
     display: none; 
     position: fixed; 
@@ -50,4 +16,65 @@ img{
   
   #myBtnTop:hover {
     background-color: #555; 
+  }
+
+  #section2{
+    border: teal;
+    border-style: solid;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(64, 86, 109);
+    color: white;
+  }
+  #section3{
+    border: teal;
+    border-style: solid;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    background-color:  rgb(64, 86, 109);
+    opacity: .85;
+  }
+  
+  #rower{
+    
+    border:white;
+    margin: 10px;
+    border-style: double;
+    background-color: white;
+    opacity: .85;
+  }
+  
+  #section1{
+    
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background-color: rgb(39, 40, 41);
+    color: white;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  img{
+    /* align-self: flex-start; */
+    height: 100%;
+    width: 100%;
+  
+  }
+  
+  body{
+    background-color: lightslategray;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+    padding: 5px;
   }

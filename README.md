@@ -16,6 +16,10 @@ This will help showcase the items that we have worked on .
 
 There were some hurdles encountered at first due to unfamiliarity with bootstrap and having to research several areas. 
 
+Technologies used:
+1. HTML
+2. CSS - Bootstrap
+3. Javascript
 
 ### Screenshot
 ![alt About me](https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Reybrac.github.io.JPG?raw=true)
