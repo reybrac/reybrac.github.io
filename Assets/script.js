@@ -4,9 +4,6 @@
 
 //Get the button:
 
-
-
-
 function myFunction() {
   var x = document.getElementById("number");
   if (x.innerHTML === " Contact number") {
@@ -15,4 +12,3 @@ function myFunction() {
     x.innerHTML = " Contact number";
   }
 }
-
