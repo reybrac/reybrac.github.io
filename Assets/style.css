@@ -26,7 +26,7 @@
   border: teal;
   border-style: solid;
   height: auto;
-  padding: 60px;
+  padding: 30px;
   margin-top: 10px;
   /* margin-right: 510px; */
   background-color: rgb(64, 86, 109);
@@ -36,14 +36,22 @@
   border: teal;
   border-style: solid;
   height: auto;
-  padding: 20px;
+  padding: 0px;
   margin-top: 10px;
   /* margin: 10px; */
   background-color: rgb(64, 86, 109);
   opacity: 0.85;
 }
 
-#rower {
+#rower1 {
+  border: white;
+  margin: 10px;
+  border-style: double;
+  background-color: white;
+  opacity: 0.85;
+}
+
+#rower2 {
   border: white;
   margin: 10px;
   border-style: double;
