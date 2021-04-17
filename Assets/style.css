@@ -26,8 +26,9 @@
   border: teal;
   border-style: solid;
   height: auto;
-  padding: 20px;
-  margin: 10px;
+  padding: 60px;
+  margin-top: 10px;
+  /* margin-right: 510px; */
   background-color: rgb(64, 86, 109);
   color: white;
 }
@@ -36,7 +37,8 @@
   border-style: solid;
   height: auto;
   padding: 20px;
-  margin: 10px;
+  margin-top: 10px;
+  /* margin: 10px; */
   background-color: rgb(64, 86, 109);
   opacity: 0.85;
 }
@@ -59,11 +61,6 @@
   text-align: center;
 }
 
-img-thumbnail {
-  height: 100%;
-  width: 100%;
-}
-
 body {
   background-color: lightslategray;
 }
@@ -78,11 +75,6 @@ body {
   .col {
     flex-direction: column;
   }
-}
-
-#profilepic {
-  height: 100%;
-  width: 100%;
 }
 
 footer {
@@ -135,4 +127,16 @@ footer {
 
 .container-fluid {
   opacity: 0.95;
+}
+
+#profilepic {
+  border-radius: 25%;
+  background-color: white;
+}
+
+.card {
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
 }

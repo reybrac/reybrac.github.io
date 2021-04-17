@@ -12,3 +12,8 @@ function myFunction() {
     x.innerHTML = " Contact number";
   }
 }
+
+$(".carousel").carousel({
+  interval: 6000,
+  pause: "false",
+});
