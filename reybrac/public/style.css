@@ -45,10 +45,19 @@
 
 #rower1 {
   border: white;
+  text-align: center;
   margin: 10px;
   border-style: double;
   background-color: white;
-  opacity: 0.85;
+  opacity: 0.95;
+  background-image: url("https://media.istockphoto.com/photos/tropical-beach-background-picture-id1145474071?k=6&m=1145474071&s=612x612&w=0&h=p4eN7OqEjFFcBtFZfQG283Tngx_Y8T49T3ZCXSpBxjU=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  list-style-type: none;
+}
+
+.nobullets {
+  list-style-type: none;
 }
 
 #rower2 {
@@ -89,12 +98,12 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+
   width: 100%;
-  height: auto;
+
   background-color: rgb(8, 8, 8);
   color: white;
   text-align: center;
-  padding: 5px;
 }
 
 .collapsible {
@@ -149,4 +158,9 @@ footer {
   border: none;
   width: auto;
   height: auto;
+}
+
+.navi {
+  padding-left: 25px;
+  color: white;
 }

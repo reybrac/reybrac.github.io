@@ -2,10 +2,19 @@ import React from "react";
 //, { useState, useEffect }
 import Carousel from "react-bootstrap/Carousel";
 
+function myFunction() {
+  var x = document.getElementById("number");
+  if (x.innerHTML === " ") {
+    x.innerHTML = " (925) 699-3988";
+  } else {
+    x.innerHTML = " ";
+  }
+}
+
 function Homepage() {
   return (
     <div className="container-fluid row">
-      <div className="col-md-3" id="section2">
+      <div className="col-md-4" id="section2">
         <div className="card">
           <img
             className="card-img-top"
@@ -16,10 +25,8 @@ function Homepage() {
         </div>
         <br />
 
-        <p>Thanks for visiting. </p>
-
         <p>
-          My name is <h3>Reynaldo Bracamonte</h3>. I am currently attending the
+          My name is <h3>Reynaldo Bracamonte.</h3> I am currently attending the
           coding bootcamp available through UC Davis.{" "}
         </p>
         <p>
@@ -28,57 +35,20 @@ function Homepage() {
         </p>
         <br />
         <p>
-          <i className="far fa-briefcase fa-fw"></i> Aspiring Web Developer
+          <i className="far fa-briefcase fa-fw"></i> Customer Service
+          Professional with Web Development skills
         </p>
         <p>
           <i className="far fa-home fa-fw "></i> Tracy, CA
         </p>
-        <p>
-          <button>
-            <a alt="email" href="mailto:reybrac@yahoo.com">
-              <i className="far fa-envelope"></i> Email
-            </a>
-          </button>{" "}
-        </p>
-        <p>
-          <button alt="phone" onclick="myFunction()">
-            <i className="fas fa-phone-square-alt"></i> Number
-          </button>
-          <span id="number"></span>
-        </p>
-        <p>
-          <a
-            alt="resume"
-            href="Assets/Images/RBracamonte_Resume.pdf"
-            download="RBracamonte resume"
-          >
-            <button id="resume">
-              <i className="far fa-file-alt"> Resume</i>
-            </button>
-          </a>
-        </p>
-        <p>
-          <button>
-            <a
-              href="https://www.linkedin.com/in/rey-bracamonte-0595591/"
-              target="blank"
-              alt="linkedin"
-            >
-              <i className="fab fa-linkedin"> LinkedIn</i>
-            </a>
-          </button>
-        </p>
-        <p>
-          <button>
-            <a
-              href="https://github.com/reybrac"
-              target="blank"
-              alt="Reybrac github"
-            >
-              <i className="fab fa-github"> Github</i>
-            </a>
-          </button>{" "}
-        </p>
+
+        <hr />
+
+        <img
+          className="d-block w-100"
+          src="https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Zuma.jpg?raw=true"
+          alt="Zuma-dog"
+        />
       </div>
 
       <div className="col-md-8" id="section3">
@@ -86,7 +56,13 @@ function Homepage() {
           <h2>Some of the projects that I have completed.</h2>
           <p>
             See more under my{" "}
-            <a href="https://reybrac.github.io/portfolio.html">Portfolio</a>{" "}
+            <a
+              href="https://reybrac.github.io/portfolio.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Portfolio
+            </a>{" "}
             section
           </p>
 
@@ -98,6 +74,7 @@ function Homepage() {
                   className="d-block w-100"
                   src="https://github.com/reybrac/A-Taste-From-Home/raw/main/assets/Images/A-taste-from-home.JPG"
                   alt="A Taste from Home"
+                  target="_blank"
                 />
               </a>
             </Carousel.Item>
@@ -107,6 +84,7 @@ function Homepage() {
                   className="d-block w-100"
                   src="https://github.com/reybrac/Weather-dashboard/raw/main/Assets/images/Weather-Dashboard.JPG?raw=true"
                   alt="Weather Dashboard"
+                  target="_blank"
                 />
               </a>
             </Carousel.Item>
@@ -116,6 +94,7 @@ function Homepage() {
                   className="d-block w-100"
                   src="https://github.com/reybrac/Work-day-scheduler/raw/main/Assets/WD-scheduler.JPG?raw=true"
                   alt="Workday Scheduler"
+                  target="_blank"
                 />
               </a>
             </Carousel.Item>
@@ -126,7 +105,7 @@ function Homepage() {
           <div className="col">
             <h2>Happy Life</h2>
             <p>Thankful for everything I have!</p>
-            <ul>
+            <ul className="nobullets">
               <li>My family is a great driving force for me to improve.</li>
               <li>I work hard to make their lives better!</li>
               <li>Married for 12 years!</li>
@@ -135,7 +114,7 @@ function Homepage() {
             </ul>
             <hr />
             <h2>Dislikes</h2>
-            <ul>
+            <ul className="nobullets">
               <li>Brussel Sprouts</li>
               <li>COVID-19</li>
               <li>Waiting in line</li>
@@ -143,7 +122,7 @@ function Homepage() {
             <hr />
 
             <h2>Likes</h2>
-            <ul>
+            <ul className="nobullets">
               <li>Food</li>
               <li>Kayaking</li>
               <li>Fishing</li>
