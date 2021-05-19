@@ -164,3 +164,11 @@ footer {
   padding-left: 25px;
   color: white;
 }
+
+#background {
+  background-image: url("https://github.com/reybrac/reybrac.github.io/blob/main/Assets/Images/Beach.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}

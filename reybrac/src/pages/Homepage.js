@@ -55,15 +55,7 @@ function Homepage() {
         <div className="row" id="rower2">
           <h2>Some of the projects that I have completed.</h2>
           <p>
-            See more under my{" "}
-            <a
-              href="https://reybrac.github.io/portfolio.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Portfolio
-            </a>{" "}
-            section
+            See more under my <a href="/portfolio">Portfolio</a> section
           </p>
 
           <hr />
