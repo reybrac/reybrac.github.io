@@ -1,6 +1,8 @@
 import Homepage from "./pages/Homepage";
 import NoMatch from "./pages/NoMatch";
 import Portfolio from "./pages/Portfolio";
+import Navbar from "./components/Navbar";
+import Card from "./components/Card";
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -12,6 +14,7 @@ import {
 function AppRouter() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route exact path="/" component={withRouter(Homepage)} />
 
@@ -21,6 +24,8 @@ function AppRouter() {
           <NoMatch />
         </Route>
       </Switch>
+
+      <Card />
     </Router>
   );
 }
