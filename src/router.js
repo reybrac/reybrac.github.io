@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import React from "react";
 import {
-  BrowserRouter as Router,
+  BrowserRouter as BrowserRouter,
   Route,
   Switch,
   withRouter,
@@ -13,7 +13,7 @@ import {
 
 function AppRouter() {
   return (
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Switch>
         <Route exact path="/" component={withRouter(Homepage)} />
@@ -26,7 +26,7 @@ function AppRouter() {
       </Switch>
 
       <Card />
-    </Router>
+    </BrowserRouter>
   );
 }
 
