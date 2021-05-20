@@ -3,15 +3,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-const styles = {
-  navbarStyle: {
-    background: "skyblue",
-    justifyContent: "flex-end",
-  },
-};
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
 function Navbars() {
   return (
     <Navbar className="navi" bg="dark" variant="dark" expand="lg">
