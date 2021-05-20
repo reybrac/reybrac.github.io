@@ -11,7 +11,7 @@ function Navbars() {
       <Navbar.Collapse className="mr-auto" id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">About</Nav.Link>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <NavDropdown title="Contact" id="basic-nav-dropdown">
             <NavDropdown.Item href="mailto:reybrac@yahoo.com">
               <i className="far fa-envelope"> Email </i>
