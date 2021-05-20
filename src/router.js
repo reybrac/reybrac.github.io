@@ -9,10 +9,10 @@ function AppRouter() {
     <Router>
       <div>
         <Switch>
-          <Route exact path={"/"}>
+          <Route exact path="/">
             <Homepage />
           </Route>
-          <Route exact path={"/portfolio"}>
+          <Route exact path="/portfolio">
             <Portfolio />
           </Route>
 
