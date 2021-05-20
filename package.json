@@ -1,7 +1,7 @@
 {
   "name": "reybrac.github.io",
   "version": "1.0.0",
-  "description": "Creating the initial file",
+  "private": true,
   "homepage": "https://reybrac.github.io",
   "dependencies": {
     "bootstrap": "^5.0.1",
@@ -22,15 +22,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reybrac/reybrac.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reybrac/reybrac.github.io/issues"
+ 
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
