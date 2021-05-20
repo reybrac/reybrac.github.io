@@ -12,17 +12,15 @@ import {
 function AppRouter() {
   return (
     <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={withRouter(Homepage)} />
+      <Switch>
+        <Route exact path="/" component={withRouter(Homepage)} />
 
-          <Route exact path="/portfolio" component={withRouter(Portfolio)} />
+        <Route exact path="/portfolio" component={withRouter(Portfolio)} />
 
-          <Route>
-            <NoMatch />
-          </Route>
-        </Switch>
-      </div>
+        <Route>
+          <NoMatch />
+        </Route>
+      </Switch>
     </Router>
   );
 }
