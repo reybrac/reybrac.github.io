@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import React from "react";
 import {
-  BrowserRouter as BrowserRouter,
+  HashRouter as Router,
   Route,
   Switch,
   withRouter,
@@ -13,12 +13,12 @@ import {
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Switch>
         <Route exact path="/" component={withRouter(Homepage)} />
 
-        <Route exact path="/portfolio" component={withRouter(Portfolio)} />
+        <Route exact path="portfolio" component={withRouter(Portfolio)} />
 
         <Route>
           <NoMatch />
@@ -26,7 +26,7 @@ function AppRouter() {
       </Switch>
 
       <Card />
-    </BrowserRouter>
+    </Router>
   );
 }
 
