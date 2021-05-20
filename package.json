@@ -2,7 +2,7 @@
   "name": "reybrac.github.io",
   "version": "1.0.0",
   "description": "Creating the initial file",
-  "homepage": "https://reybrac.github.io/",
+  "homepage": "https://reybrac.github.io",
   "dependencies": {
     "bootstrap": "^5.0.1",
     "gh-pages": "^3.1.0",
