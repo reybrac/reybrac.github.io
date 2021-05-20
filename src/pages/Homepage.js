@@ -1,5 +1,5 @@
 import React from "react";
-//, { useState, useEffect }
+//, { useState, useEffect }This is unfortunate
 import Carousel from "react-bootstrap/Carousel";
 
 function Homepage() {
