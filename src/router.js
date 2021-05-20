@@ -13,12 +13,16 @@ import {
 
 function AppRouter() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={withRouter(Homepage)} />
+        <Route exact path="/">
+          <Homepage />
+        </Route>
 
-        <Route exact path="portfolio" component={withRouter(Portfolio)} />
+        <Route exact path="portfolio">
+          <Portfolio />
+        </Route>
 
         <Route>
           <NoMatch />
