@@ -9,10 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <AppRouter>
-        <Homepage />
-        <Portfolio />
-      </AppRouter>
+      <AppRouter />
       <Card />
     </div>
   );
