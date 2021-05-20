@@ -32,7 +32,6 @@
   "bugs": {
     "url": "https://github.com/reybrac/reybrac.github.io/issues"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
