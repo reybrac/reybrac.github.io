@@ -2,7 +2,7 @@ import React from "react";
 //, { useState, useEffect }This is unfortunate
 import Carousel from "react-bootstrap/Carousel";
 
-function Homepage() {
+function Homepage(props) {
   return (
     <div className="container-fluid row">
       <div className="col-md-4" id="section2">
@@ -46,7 +46,14 @@ function Homepage() {
         <div className="row" id="rower2">
           <h2>Some of the projects that I have completed.</h2>
           <p>
-            See more under my <a href="#portfolio">Portfolio</a> section
+            See more under my{" "}
+            <a
+              href="#portfolio"
+              onClick={() => props.handlePageChange("Portfolio")}
+            >
+              Portfolio
+            </a>{" "}
+            section
           </p>
 
           <hr />

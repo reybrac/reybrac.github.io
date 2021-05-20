@@ -3,15 +3,30 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-function Navbars() {
+function Navbars(props) {
   return (
     <Navbar className="navi" bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="/">Reynaldo Bracamonte</Navbar.Brand>
+      <Navbar.Brand
+        href="#Homepage"
+        onClick={() => props.handlePageChange("Homepage")}
+      >
+        Reynaldo Bracamonte
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="mr-auto" id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">About</Nav.Link>
-          <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+          <Nav.Link
+            href="#Homepage"
+            onClick={() => props.handlePageChange("Homepage")}
+          >
+            About
+          </Nav.Link>
+          <Nav.Link
+            href="#portfolio"
+            onClick={() => props.handlePageChange("Portfolio")}
+          >
+            Portfolio
+          </Nav.Link>
           <NavDropdown title="Contact" id="basic-nav-dropdown">
             <NavDropdown.Item href="mailto:reybrac@yahoo.com">
               <i className="far fa-envelope"> Email </i>
