@@ -16,13 +16,9 @@ function AppRouter() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/">
-          <Homepage />
-        </Route>
+        <Route exact path="/" component={Homepage} />
 
-        <Route exact path="portfolio">
-          <Portfolio />
-        </Route>
+        <Route exact path="portfolio" component={Portfolio} />
 
         <Route>
           <NoMatch />
