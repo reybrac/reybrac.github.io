@@ -18,7 +18,7 @@ function AppRouter() {
       <Switch>
         <Route exact path="/" component={Homepage} />
 
-        <Route exact path="portfolio" component={Portfolio} />
+        <Route exact path="/portfolio" component={Portfolio} />
 
         <Route>
           <NoMatch />
