@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import NoMatch from "./pages/NoMatch";
 import Portfolio from "./pages/Portfolio";
+import { Switch } from "react-router";
 
 // import Homepage from "./pages/Homepage";
 // import Portfolio from "./pages/Portfolio";
@@ -42,11 +43,13 @@ function App() {
     <AppRouter>
       <div>
         <Navbar />
-        <AppRouter exact path="/" component={Homepage} />
-        <AppRouter exact path="/portfolio" component={Portfolio} />
-        <AppRouter>
-          <NoMatch />
-        </AppRouter>
+        <Switch>
+          <AppRouter exact path="/" component={Homepage} />
+          <AppRouter exact path="/portfolio" component={Portfolio} />
+          <AppRouter>
+            <NoMatch />
+          </AppRouter>
+        </Switch>
       </div>
     </AppRouter>
   );
