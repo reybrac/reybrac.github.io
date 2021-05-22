@@ -40,18 +40,9 @@ import { Switch } from "react-router";
 //       </div>
 function App() {
   return (
-    <AppRouter>
-      <div>
-        <Navbar />
-        <Switch>
-          <AppRouter exact path="/" component={Homepage} />
-          <AppRouter exact path="/portfolio" component={Portfolio} />
-          <AppRouter>
-            <NoMatch />
-          </AppRouter>
-        </Switch>
-      </div>
-    </AppRouter>
+    <div>
+      <AppRouter />
+    </div>
   );
 }
 
