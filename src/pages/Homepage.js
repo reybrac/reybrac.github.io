@@ -46,14 +46,7 @@ function Homepage(props) {
         <div className="row" id="rower2">
           <h2>Some of the projects that I have completed.</h2>
           <p>
-            See more under my{" "}
-            <a
-              href="#portfolio"
-              onClick={() => props.handlePageChange("Portfolio")}
-            >
-              Portfolio
-            </a>{" "}
-            section
+            See more under my <a href="#portfolio">Portfolio</a> section
           </p>
 
           <hr />
