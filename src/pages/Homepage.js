@@ -45,9 +45,7 @@ function Homepage(props) {
       <div className="col-md-8" id="section3">
         <div className="row" id="rower2">
           <h2>Some of the projects that I have completed.</h2>
-          <p>
-            See more under my Portfolio</a> section
-          </p>
+          <p>See more under my Portfolio section</p>
 
           <hr />
           <Carousel>
