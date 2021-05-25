@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Navbars() {
   return (
     <Navbar className="navi" bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="/">Reynaldo Bracamonte</Navbar.Brand>
+      <Navbar.Brand>Reynaldo Bracamonte</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="mr-auto" id="basic-navbar-nav">
         <Nav className="mr-auto">
