@@ -17,12 +17,13 @@ function Homepage(props) {
         <br />
 
         <p>
-          My name is <h3>Reynaldo Bracamonte.</h3> I am currently attending the
-          coding bootcamp available through UC Davis.{" "}
+          My name is <h3>Reynaldo Bracamonte.</h3> I am a full stack web
+          developer. I attended the coding bootcamp available through UC Davis.{" "}
         </p>
         <p>
           It has been challenging to learn new skills and there is a lot of
-          research required, but so far it is an enjoyable program.
+          research required, but it was an enjoyable program. Web design is now
+          my hobby and I enjoy coming up with solutions to everyday challenges.
         </p>
         <br />
         <p>

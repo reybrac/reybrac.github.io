@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
+import "./navstyle.css";
 
 function Navbars() {
   return (
@@ -33,8 +34,8 @@ function Navbars() {
           </Nav.Link>
 
           <NavDropdown title="Contact" id="basic-nav-dropdown">
-            <NavDropdown.Item href="mailto:reybrac@yahoo.com">
-              <i className="far fa-envelope"> Email </i>
+            <NavDropdown.Item href="mailto:reybrac@gmail.com">
+              <i className="far fa-envelope"> reybrac@gmail.com </i>
             </NavDropdown.Item>
             <NavDropdown.Item
               href="https://www.linkedin.com/in/rey-bracamonte-0595591/"
@@ -47,7 +48,7 @@ function Navbars() {
             </NavDropdown.Item>
 
             <NavDropdown.Item href="tel:9256993988">
-              <i className="fas fa-phone-square-alt"> Phone </i>
+              <i className="fas fa-phone-square-alt"> (925) 699-3988</i>
             </NavDropdown.Item>
 
             <NavDropdown.Divider />
