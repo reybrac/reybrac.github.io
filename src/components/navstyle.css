@@ -1,9 +1,0 @@
-#myphone:hover + .hide {
-  display: block;
-  color: blue;
-}
-
-.myEmail:hover + .hide {
-  display: block;
-  color: blue;
-}

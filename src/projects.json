@@ -1,14 +1,14 @@
 [
     {
       "id": 1,
-      "name": "Project 2",
-      "url": "https://pacific-meadow-78512.herokuapp.com/",
+      "name": "Project 3",
+      "url": " https://healthy-habits-1.herokuapp.com/",
       "image":
-        "https://github.com/dorrianweber/project2/raw/main/public/images/Healthyhabits-homepage.jpg?raw=true",
+        "https://github.com/dorrianweber/healthyHabits/raw/main/client/public/images/HealthyHabits1.JPG?raw=true",
       "title": "Healthy Habits Site",
       "description": "A website that allows users to make an account, so that they can keep track of their habits and take the steps to improve. Utized various technologies (Express.js, Handlebars.js, Chart.js, and more) to copmlete the project.",
-      "deployedSite": "https://pacific-meadow-78512.herokuapp.com/",
-      "githubRepo": "https://github.com/reybrac/HealthyHabits"
+      "deployedSite": "https://healthy-habits-1.herokuapp.com/",
+      "githubRepo": "https://github.com/reybrac/healthyHabits-1"
     },
     {
         "id": 2,
