@@ -17,18 +17,189 @@ function Homepage(props) {
         <br />
 
         <p>
-          My name is <h3>Reynaldo Bracamonte.</h3> I am currently attending the
-          coding bootcamp available through UC Davis.{" "}
+          My name is <h3>Reynaldo Bracamonte.</h3> I am a full stack web
+          developer. I attended the coding bootcamp available through UC Davis.{" "}
         </p>
         <p>
           It has been challenging to learn new skills and there is a lot of
-          research required, but so far it is an enjoyable program.
+          research required, but it was an enjoyable program. Web design is now
+          my hobby and I enjoy coming up with solutions to everyday challenges.
         </p>
         <br />
         <p>
           <i className="far fa-briefcase fa-fw"></i> Customer Service
           Professional with Web Development skills
         </p>
+        <p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"
+          >
+            <img
+              alt="html"
+              src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"
+          >
+            <img
+              alt="css"
+              src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"
+          >
+            <img
+              alt="javascript"
+              src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/jquery/jquery-plain-wordmark.svg"
+          >
+            <img
+              alt="jquery"
+              src="https://github.com/devicons/devicon/raw/master/icons/jquery/jquery-plain-wordmark.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg"
+          >
+            <img
+              alt="nodejs"
+              src="https://github.com/devicons/devicon/raw/master/icons/nodejs/nodejs-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg"
+          >
+            <img
+              alt="npm"
+              src="https://github.com/devicons/devicon/raw/master/icons/npm/npm-original-wordmark.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain.svg"
+          >
+            <img
+              alt="bootstrap"
+              src="https://github.com/devicons/devicon/raw/master/icons/bootstrap/bootstrap-plain.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg"
+          >
+            <img
+              alt="Github"
+              src="https://github.com/devicons/devicon/raw/master/icons/github/github-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg"
+          >
+            <img
+              alt="express"
+              src="https://github.com/devicons/devicon/raw/master/icons/express/express-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg"
+          >
+            <img
+              alt="mysql"
+              src="https://github.com/devicons/devicon/raw/master/icons/mysql/mysql-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original.svg"
+          >
+            <img
+              alt="sequelize"
+              src="https://github.com/devicons/devicon/raw/master/icons/sequelize/sequelize-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg"
+          >
+            <img
+              alt="mongodb"
+              src="https://github.com/devicons/devicon/raw/master/icons/mongodb/mongodb-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/heroku/heroku-original.svg"
+          >
+            <img
+              alt="heroku"
+              src="https://github.com/devicons/devicon/raw/master/icons/heroku/heroku-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg"
+          >
+            <img
+              alt="react"
+              src="https://github.com/devicons/devicon/raw/master/icons/react/react-original.svg"
+              style={{ align: "left", maxWidth: "100%", width: "40px" }}
+            />
+          </a>
+        </p>
+
         <p>
           <i className="far fa-home fa-fw "></i> Tracy, CA
         </p>
@@ -45,9 +216,7 @@ function Homepage(props) {
       <div className="col-md-8" id="section3">
         <div className="row" id="rower2">
           <h2>Some of the projects that I have completed.</h2>
-          <p>
-            See more under my Portfolio</a> section
-          </p>
+          <p>See more under my Portfolio section</p>
 
           <hr />
           <Carousel>
