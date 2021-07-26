@@ -26,8 +26,8 @@ Technologies used:
 
 ### Screenshots
 
-![alt About me](https://github.com/reybrac/reybrac.github.io/blob/main/public/reybrac1.JPG?raw=true)
-![alt Portfolio](https://github.com/reybrac/reybrac.github.io/blob/main/public/reybrac2.JPG?raw=true)
+![alt About me](https://github.com/reybrac/reybrac.github.io/blob/main/reybrac1.JPG?raw=true)
+![alt Portfolio](https://github.com/reybrac/reybrac.github.io/blob/main/reybrac2.JPG?raw=true)
 
 #### Installation-Deployment
 

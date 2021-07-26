@@ -10,7 +10,7 @@ function Homepage(props) {
           <img
             className="card-img-top"
             id="profilepic"
-            src="https://github.com/reybrac/reybrac.github.io/blob/main/public/reynaldo.jpg?raw=true"
+            src="https://github.com/reybrac/reybrac.github.io/blob/main/reynaldo.jpg?raw=true"
             alt="Reynaldo Bracamonte"
           />
         </div>
@@ -208,7 +208,7 @@ function Homepage(props) {
 
         <img
           className="d-block w-100"
-          src="https://github.com/reybrac/reybrac.github.io/blob/main/public/Zuma.jpg?raw=true"
+          src="https://github.com/reybrac/reybrac.github.io/blob/main/Zuma.jpg?raw=true"
           alt="Zuma-dog"
         />
       </div>
