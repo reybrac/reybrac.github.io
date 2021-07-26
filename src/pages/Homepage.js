@@ -17,7 +17,7 @@ function Homepage(props) {
         <br />
 
         <p>
-          My name is <h3>Reynaldo Bracamonte.</h3> I am a full stack web
+          My name is <h4>Reynaldo Bracamonte.</h4> I am a full stack web
           developer. I attended the coding bootcamp available through UC Davis.{" "}
         </p>
         <p>
