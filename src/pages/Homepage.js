@@ -10,7 +10,7 @@ function Homepage(props) {
           <img
             className="card-img-top"
             id="profilepic"
-            src="../../images/reynaldo.JPG"
+            src="https://github.com/reybrac/reybrac.github.io/blob/main/public/images/reynaldo.jpg?raw=true"
             alt="Reynaldo Bracamonte"
           />
         </div>
