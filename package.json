@@ -5,7 +5,7 @@
   "homepage": "https://reybrac.github.io",
   "dependencies": {
     "bootstrap": "^5.0.1",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "history": "^4.10.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
