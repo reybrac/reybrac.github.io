@@ -28,7 +28,8 @@ function Homepage(props) {
         <br />
         <p>
           <i className="far fa-briefcase fa-fw"></i> Customer Service
-          Professional with Web Development skills
+          Professional with project management, soft skills, management, and Web
+          Development skills.
         </p>
         <p>
           <a
